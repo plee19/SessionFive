@@ -6,5 +6,5 @@ package us.plee19.enums;
  * @version 1
  */
 public enum Team {
-    GRE, MIN, CHI, DET, PAC, VIK, BEA, LIO
+    GRE, MIN, CHI, DET, PAC, VIK, BEA, LIO, DAL, COW, PHI, EAG, SEA, NEW, GIA, SAN, FOR, ATL, FAL, LOS, RAM, WAS, RED, TAM, BUC, CAR, PAN,
 }
