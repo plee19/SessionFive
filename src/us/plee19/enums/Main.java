@@ -43,21 +43,28 @@ public class Main {
                 break;
             case SEA:
                 System.out.println("Seattle Seahawks");
+                break;
             case NEW: case GIA:
                 System.out.println("New York Giants");
+                break;
             case SAN: case FOR:
                 System.out.println("San Francisco Forty-Niners");
+                break;
             case ATL: case FAL:
                 System.out.println("Atlanta Falcons");
                 break;
             case LOS: case RAM:
                 System.out.println("Los Angeles Rams");
+                break;
             case WAS: case RED:
                 System.out.println("Washington Redskins");
+                break;
             case TAM: case BUC:
                 System.out.println("Tampa Bay Buccaneers");
+                break;
             case CAR: case PAN:
                 System.out.println("Carolina Panthers");
+                break;
         }
     }
 }
