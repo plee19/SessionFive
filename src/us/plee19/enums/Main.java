@@ -2,6 +2,11 @@ package us.plee19.enums;
 
 import java.util.Scanner;
 
+/**
+ * Main method to demonstrate enums with user input.
+ * @author plee19
+ * @version 1
+ */
 public class Main {
 
     public static void main(String[] args) {

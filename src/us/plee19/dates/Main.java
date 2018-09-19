@@ -3,6 +3,11 @@ package us.plee19.dates;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+/**
+ * Method to illustrate use of dates.
+ * @author plee19
+ * @version 1
+ */
 public class Main {
 
     public static void main(String[] args) {

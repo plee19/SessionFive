@@ -2,6 +2,11 @@ package us.plee19.numwrappers;
 
 import java.util.Scanner;
 
+/**
+ * Main method to illustrate use of number wrappers.
+ * @author plee19
+ * @version 1
+ */
 public class Main {
     String input;
 

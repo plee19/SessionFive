@@ -5,6 +5,11 @@ import java.math.BigInteger;
 
 import static java.math.BigDecimal.*;
 
+/**
+ * Main method to illustrate use of BigInteger and BigDecimal.
+ * @author plee19
+ * @version 1
+ */
 public class Main {
 
     public static void main(String[] args) {
