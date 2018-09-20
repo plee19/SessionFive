@@ -20,14 +20,13 @@ public class Main {
         BigInteger texasMultiply;
         BigDecimal cost = new BigDecimal(3.23);
         BigDecimal texasMultiplyCost;
-        System.out.print("Number of letters, WI -> CA: ");
         wicaMultiply = wisconsin.multiply(california);
-        System.out.println(wicaMultiply);
+        System.out.println("Number of letters, WI -> CA: " + wicaMultiply);
         texasMultiply = wicaMultiply.multiply(texas);
-        System.out.print("Number of letters for TX to get a copy of all: " + texasMultiply);
+        System.out.println("Number of letters for TX to get a copy of all: " + texasMultiply);
         BigDecimal texasMultiplyDecimal = new BigDecimal(texasMultiply);
         texasMultiplyCost = texasMultiplyDecimal.multiply(cost);
-        texasMultiplyCost = texasMultiplyCost.setScale(2, ROUND_HALF_DOWN);
+        texasMultiplyCost = texasMultiplyCost.setScale(2, ROUND_HALF_UP);
         System.out.print("Total cost to print all Texas letters: $" + texasMultiplyCost);
     }
 }
