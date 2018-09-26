@@ -1,6 +1,5 @@
 package us.plee19.numwrappers;
 
-import java.text.NumberFormat;
 import java.util.Scanner;
 
 /**
@@ -9,16 +8,11 @@ import java.util.Scanner;
  * @version 1
  */
 public class Main {
-    String input;
 
     public static void main(String[] args) {
         System.out.print("Please enter a number: ");
         Scanner keyboard = new Scanner(System.in);
         String input = keyboard.nextLine();
-        getDataType(input);
-    }
-
-    public static void getDataType(String input) {
 
         try {
             long wholeNumber = Long.parseLong(input);
